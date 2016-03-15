@@ -1,0 +1,22 @@
+body {
+	background: #000 !important; 
+	 color: #fff !important; 
+	 padding-bottom: 70px;
+}
+
+footer {
+
+}
+
+.container {
+	  background: #000 !important;
+	  margin:10px;
+}
+
+.col-md-7 {
+    padding-top: 85px !important;
+}
+
+a.navbar-brand {
+    padding: 6px !important;
+}

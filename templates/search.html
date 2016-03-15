@@ -1,0 +1,22 @@
+{{define "search"}}
+{{template "header" .}}
+<div class="container">
+	<h2>Search For A Movie</h2>
+	<div class="container">
+               <div class="row">
+            <div class="col-md-5">
+ <img class="img-responsive" src="/public/bootstrap/tmdb.png" alt="IMDB Search">
+     </div>
+ <div class="col-md-7">
+<form action="" role="form" method="GET">
+  <div class="form-group">
+    <label for="SearchKey">Search Movies:</label>
+    <input type="search" name="GetSearchKey" class="form-control" id="GetSearchKey">
+  </div>
+  <button type="submit" class="btn btn-default">Search Movies</button>
+</form>
+            </div>
+        </div>
+      </div> 
+{{template "footer" .}}
+{{end}}
